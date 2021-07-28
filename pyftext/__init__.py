@@ -78,7 +78,7 @@ class Text():
         sss = random.choice(liste)
         # print("Font: "+ sss)
 
-        rkarakter = ["#", "@", ".","!","'",'"']
+        rkarakter = ["#", "@", ".","!","'","|","$","+"]
         character = random.choice(rkarakter)
         
         font = ImageFont.truetype(sss, self.fontsize)
