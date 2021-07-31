@@ -10,6 +10,8 @@ The pyftext module converts your words to Ascii. You can draw Pyramid shapes at 
 
 `pip install pyftext`
 
+This Package support only Python 3.9.x
+
 ## How to Use
 **Pyramid Arguments :**
 ```
