@@ -8,7 +8,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 setup(
     name="pyftext",
-    version="0.0.5",
+    version="1.1",
     description="Ascii Word Writing",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -18,10 +18,10 @@ setup(
     license="MIT",
     platforms="any",
     packages=find_packages(),
-    python_requires=">=3.9.2",
+    python_requires=">=3.8.3",
     classifiers=[
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.8",
     ],
     include_package_data=True,
     install_requires=["Pillow"],
